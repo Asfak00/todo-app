@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reponsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- todo heading area -->
+    <header>
+      <h1 class="todo-title"><span>To</span><span class="do">Do</span> APP</h1>
+    </header>
+
+    <!-- todo input area -->
+    <main>
+      <section class="todo-input-section">
+        <label for="todo-input"
+          >Add your <span>To</span><span class="do">Do</span> :
+        </label>
+        <input type="text" name="todo-input" id="todo-input" required />
+        <button class="add-todo-button" id="add-todo-button">ADD TODO</button>
+      </section>
+      <div class="flex">
+        <section class="todo-stored-section" id="todo-stored-section">
+          <h2><span>To</span><span class="do">Do</span> Storage</h2>
+        </section>
+        <section class="todo-done-section" id="todo-done-section">
+          <h2><span>To</span><span class="do">Do</span> Wishlist</h2>
+        </section>
+      </div>
+    </main>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

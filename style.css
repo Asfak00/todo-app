@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* global todo font styling */
+.do {
+  color: rgb(246, 4, 4);
+}
+
+/* heading styling */
+.todo-title {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* main section styling */
+main {
+  width: 70%;
+  height: auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.545), white);
+  margin: 2em auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* add todo section styling */
+.todo-input-section label {
+  font-size: 18px;
+  color: white;
+}
+
+#todo-input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+#todo-input:focus {
+  border-color: rgb(4, 75, 174);
+}
+
+.add-todo-button {
+  width: 90px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  color: white;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 255, 0.7),
+    rgb(255, 255, 255, 50%)
+  );
+}
+
+.add-todo-button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.737),
+    rgb(255, 255, 255)
+  );
+  color: black;
+}
+
+/* flex div styling */
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  text-align: start;
+}
+
+/* left right div title styling */
+h2 {
+  font-size: 18px;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+/* todo storage styling */
+.todo-stored-section {
+  width: 45%;
+  height: 200px;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  display: none;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+/* todo donelist styling */
+.todo-done-section {
+  width: 45%;
+  height: 200px;
+  display: none;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+/* checkbox and todo section styling */
+.delete-btn {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(243, 13, 13);
+  margin-left: 0.1rem;
+  border-radius: 50%;
+  color: white;
+}

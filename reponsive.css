@@ -1,0 +1,35 @@
+@media screen and (max-width: 900px) {
+  /* main section styling */
+  main {
+    width: 90%;
+  }
+
+  #todo-input {
+    width: 100%;
+    height: 28px;
+  }
+  .add-todo-button {
+    width: 150px;
+    margin-top: 0.6rem;
+  }
+  /* flex div styling */
+  .flex {
+    display: block;
+  }
+
+  /* left right div title styling */
+  h2 {
+    font-size: 13px;
+  }
+
+  /* todo storage styling */
+  .todo-stored-section {
+    width: 100%;
+  }
+
+  /* todo donelist styling */
+  .todo-done-section {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
