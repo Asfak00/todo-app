@@ -51,8 +51,4 @@ const main = () => {
       div.remove();
     });
   });
-
-  if (todoStorageDiv === null) {
-    todoStorageDiv.style.display = "none";
-  }
 };
